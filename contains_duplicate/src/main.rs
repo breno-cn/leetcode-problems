@@ -9,7 +9,7 @@ pub fn contains_duplicate(nums: Vec<i32>) -> bool {
         } 
 
         // set.insert(*num);
-        set.insert(num)
+        set.insert(*num);
     }
 
     false
